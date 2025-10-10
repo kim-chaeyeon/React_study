@@ -1,12 +1,12 @@
 # 📘 JavaScript 기본 문법 정리
 
 ## 📑 목차
-- [03. 변수 & 상수](./chapter03.js)
-- [04. 변수 & 상수 (추가)](./chapter04.js)
-- [05. 자료형](./chapter05.js)
-- [06. 형 변환](./chapter06.js)
-- [07. 연산자 ①](./chapter07.js)
-- [index.html 실행 페이지](./index.html)
+- [03. 변수 & 상수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter03.js)
+- [04. 변수 & 상수 (추가)](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter04.js)
+- [05. 자료형](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter05.js)
+- [06. 형 변환](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter06.js)
+- [07. 연산자 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter07.js)
+- [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
 작성일: 2025.09.26 (금)
