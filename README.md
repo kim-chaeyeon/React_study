@@ -7,6 +7,7 @@
 - [06. 형 변환](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter06.js)
 - [07. 연산자 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter07.js)
 - [08. 연산자 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter08.js)
+- [09. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter09.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -151,3 +152,16 @@ let none;
 let res = var6 % 2 == 0 ? "짝수" : "홀수";
 ```
 - ? 앞에는 조건식, ? 뒤에는 참일 때 반환 값, : 뒤에는 거짓일 때 반환 값을 적으면 됨.
+
+## 📘 조건문
+
+### 1. if 조건문 (if문)
+- if: 가장 먼저 검사되는 조건문
+- else if: 첫 번째 조건이 거짓일 때, 추가로 검사할 조건
+- else: 위의 모든 조건이 거짓일 때 실행되는 코드
+
+### 2. Switch문
+- if문과 기능 자체는 동일
+- 다수의 조건을 처리할 때 if보다 더 직관적이다.
+- Switch문은 거의 모든 case에 break를 넣어줘야 됨.
+- default: 어떤 case에도 해당하지 않을 때 실행되는 기본 동작
