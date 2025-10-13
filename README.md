@@ -155,12 +155,17 @@ let res = var6 % 2 == 0 ? "짝수" : "홀수";
 
 ## 📘 조건문
 
-### 1. if 조건문 (if문)
+### 1. 조건문 (conditional Statement)
+- 특정 조건을 만족했을 때에만 실행되는 코드를 작성하기 위한 문법
+- 대표적으로 if, Switch 조건문이 존재함.
+<img width="643" height="253" alt="스크린샷 2025-10-13 오후 12 53 01" src="https://github.com/user-attachments/assets/7de4e009-e812-450d-943e-966d36ffaba6" />
+
+### 2. if 조건문 (if문)
 - if: 가장 먼저 검사되는 조건문
 - else if: 첫 번째 조건이 거짓일 때, 추가로 검사할 조건
 - else: 위의 모든 조건이 거짓일 때 실행되는 코드
 
-### 2. Switch문
+### 3. Switch문
 - if문과 기능 자체는 동일
 - 다수의 조건을 처리할 때 if보다 더 직관적이다.
 - Switch문은 거의 모든 case에 break를 넣어줘야 됨.
