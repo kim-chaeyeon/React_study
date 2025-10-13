@@ -9,6 +9,7 @@ for (let idx = 0; idx <= 100; idx++) {
 }
 
 // 2. 반복문 + 조건문
+//  break : 반복문을 즉시 종료하기
 for (let id = 1; id <= 5; id++) {
   console.log(id);
 
@@ -18,6 +19,7 @@ for (let id = 1; id <= 5; id++) {
 }
 
 // 반복문의 특정 회차 건너뛰기
+// continue : 특정 회차만 건너뛰기
 for (let ida = 1; ida <= 5; ida++) {
   if (ida % 2 === 0) {
     continue;
