@@ -11,6 +11,7 @@
 - [10. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter10.js)
 - [11. 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter11.js)
 - [12. 함수 표현식과 화살표 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter12.js)
+- [12. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -262,3 +263,25 @@ const(또는 let) 함수이름 = (매개변수) => {
   return 결과값;
 };
 ```
+
+## 📘 콜백함수
+
+### 1. 콜백함수
+- 자신이 아닌 다른 함수의 인수로써 전달된 함수를 의미함
+- 함수 안에 또 다른 함수를 넣어서. 나중에 실행시키는 것
+
+### 콜백 함수 기본형
+```javascript
+// 콜백함수를 받는 함수
+function main(콜백함수) {
+  // 콜백함수를 실행
+  콜백함수();
+}
+
+// main을 호출할 때, 함수(콜백)를 인수로 전달
+main(() => {
+  console.log("이건 콜백 함수가 실행된 거야!");
+});
+```
+- main 함수는 다른 함수를 인수로 전달받음
+- main 안에서 콜백함수()를 실행하면 → 전달된 함수가 “나중에” 실행됨
