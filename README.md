@@ -9,6 +9,7 @@
 - [08. 연산자 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter08.js)
 - [09. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter09.js)
 - [10. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter10.js)
+- [11. 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter11.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -207,3 +208,36 @@ for (... ; ... ; i++)
 
 #### (1) break : 반복문을 즉시 종료하기
 #### (2) continue : 특정 회차만 건너뛰기
+
+## 📘 함수
+작성일: 2025.10.15(수)
+
+### 함수
+- 특정 동작을 하나의 코드 블록으로 묶어놓은 것
+- 필요할 때 호출해서 실행할 수 있음
+
+### 중복으로 작성된 코드의 문제점
+- 동일한 기능을 일일이 타이핑 해야 됨
+- 향후 코드 수정시 문제가 될 수 있음
+- => 함수로 해결 가능
+
+### 1. 함수 선언
+```javascript
+function 함수이름() {
+  실행할 코드
+}
+```
+- 함수 선언만으로 실행되지 않음, 함수를 호출해야 됨.
+
+### 2. 함수 호출
+```javascript
+함수이름();
+```
+- 괄호()를 붙여야 실제로 함수가 실행됨
+
+### 3. 중첩 함수
+- 함수 안에 또 다른 함수를 정의할 수 있음.
+
+### 호이스팅
+- 끌어올리다라는 뜻
+- JS에서는 선언이 호출보다 밑에 있어도 정상적으로 실행이 됨.
