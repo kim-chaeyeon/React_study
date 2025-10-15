@@ -10,6 +10,7 @@
 - [09. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter09.js)
 - [10. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter10.js)
 - [11. 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter11.js)
+- [12. 함수 표현식과 화살표 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter12.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -241,3 +242,23 @@ function 함수이름() {
 ### 호이스팅
 - 끌어올리다라는 뜻
 - JS에서는 선언이 호출보다 밑에 있어도 정상적으로 실행이 됨.
+
+## 📘 함수 표현식과 화살표 함수
+
+### 1. 함수 표현식
+- 익명함수: 값으로써 함수를 생성하는 방식
+- 호스팅이 되지 않음
+```javascript
+const(또는 let) 함수이름 = function(매개변수) {
+  실행할 코드
+  return 결과값;
+};
+```
+
+### 2. 화살표 함수
+```javascript
+const(또는 let) 함수이름 = (매개변수) => {
+  실행할 코드
+  return 결과값;
+};
+```
