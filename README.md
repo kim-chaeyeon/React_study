@@ -13,6 +13,7 @@
 - [12. 함수 표현식과 화살표 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter12.js)
 - [13. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
 - [14. 스코프](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter14.js)
+- [15. 객체 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter15.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -302,3 +303,74 @@ main(() => {
 ### 3. 지역 스코프 (Local Scope)
 - 함수, if문, for문 등 블록 {} 내부에서만 접근 가능한 영역
 - 블록 안에서 선언된 변수는 바깥에서 사용할 수 없습니다.
+
+## 📘 객체 ①
+
+### 1. 객체
+- 객체는 하나의 변수에 여러 데이터를 **"key: value” 쌍**으로 묶어서 저장하는 자료형이다.
+- 객체를 이용하면 현실세계의 존재하는 어떤 사물이나 개념을 표한하기 용이하다.
+
+### 2. 객체 생성 방법
+#### 2.1 생성자 방식
+```javascript
+let obj1 = new Object();
+```
+#### 2.2 리터럴 방식
+- 가장 많이 사용
+```javascript
+let obj2 = {};
+```
+
+### 3. 객체 프로퍼티 (속성)
+- 프로퍼티(Property) = key(이름) + value(값)
+- key: 문자, 숫자 가능
+- key에 띄어쓰기 있을 경우 반드시 따옴표 사용
+- value: 모든 자료형 가능 (문자, 숫자, 배열, 객체, 함수 등)
+
+### 4. 객체 프로퍼티 다루기
+
+### 4.1 특정 프로퍼티에 접근
+#### 4.1.1 점표기법
+```javascript
+obj.key
+```
+#### 4.1.2 괄호 표기법
+- 가장 많이 사용
+```javascript
+obj["key"];
+```
+
+### 4.2. 새로운 프로퍼티를 추가하는 방법
+#### 4.2.1 점표기법
+```javascript
+obj.newKey = 값
+```
+#### 4.2.2 괄호 표기법
+```javascript
+obj[newKey] = "값"
+```
+
+### 4.3. 프로퍼티를 수정하는 방법
+#### 4.3.1 점표기법
+```javascript
+obj.Key = New값
+```
+#### 4.3.2 괄호 표기법
+```javascript
+obj[Key] = "New값"
+```
+
+### 4.4. 프로퍼티를 삭제하는 방법
+#### 4.4.1 점표기법
+```javascript
+delete obj.key;
+```
+#### 4.4.2 괄호 표기법
+```javascript
+delete obj[key];
+```
+
+### 4.5. 프로퍼티의 존재 유무를 확인하는 방법 (in 연산자)
+```javascript
+"key" in obj
+```
