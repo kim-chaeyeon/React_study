@@ -11,7 +11,8 @@
 - [10. 조건문](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter10.js)
 - [11. 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter11.js)
 - [12. 함수 표현식과 화살표 함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter12.js)
-- [12. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
+- [13. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
+- [14. 스코프](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter14.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -285,3 +286,19 @@ main(() => {
 ```
 - main 함수는 다른 함수를 인수로 전달받음
 - main 안에서 콜백함수()를 실행하면 → 전달된 함수가 “나중에” 실행됨
+
+## 📘 스코프
+작성일: 2025.10.16(목)
+
+### 1. 스코프
+- 우리말로 **범위**를 뜻함
+- 변수나 함수에 접근하거나 호출할 수 있는 범위를 말 함
+<img width="578" height="198" alt="스크린샷 2025-10-16 오후 12 41 04" src="https://github.com/user-attachments/assets/356cecf8-2278-4d56-aeae-f4d1bc660e70" />
+
+### 2. 전역 스코프 (Global Scope)
+- 코드 전체(어디서든)에서 접근 가능한 영역
+- 함수 바깥에서 선언된 변수는 전역 변수가 됩니다.
+
+### 3. 지역 스코프 (Local Scope)
+- 함수, if문, for문 등 블록 {} 내부에서만 접근 가능한 영역
+- 블록 안에서 선언된 변수는 바깥에서 사용할 수 없습니다.
