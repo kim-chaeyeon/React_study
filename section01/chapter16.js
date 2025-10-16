@@ -22,4 +22,4 @@ const person = {
 };
 
 person.sayHi();
-person[sayHi]();
+person["sayHi"]();
