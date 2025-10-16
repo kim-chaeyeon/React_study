@@ -14,6 +14,7 @@
 - [13. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
 - [14. 스코프](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter14.js)
 - [15. 객체 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter15.js)
+- [15. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -373,4 +374,26 @@ delete obj[key];
 ### 4.5. 프로퍼티의 존재 유무를 확인하는 방법 (in 연산자)
 ```javascript
 "key" in obj
+```
+
+## 📘 객체 ②
+
+### 1. 상수 객체 (Constant Object)
+- const로 선언된 객체도 내부 값(프로퍼티)은 변경 가능
+- 단, 객체 자체를 새로운 객체로 재할당하는 건 불가능
+
+### 2. 메서드 (Method)
+- **객체의 동작(기능)**을 정의한 함수 형태의 프로퍼티
+- 즉, **객체의 행동**을 나타낸다.
+#### 2.1 메서드
+```javascript
+obj.method = function() {
+  
+}
+```
+#### 2.2 메서드 호출
+```javascript
+obj.method() // 점표기법
+
+obj["method"]() // 괄호표기법
 ```
