@@ -16,6 +16,7 @@
 - [15. 객체 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter15.js)
 - [16. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
 - [17. 배열](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter17.js)
+- [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter01.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -435,3 +436,30 @@ arr[0] = "변경값";
 ```javascript
 arr[1], arr[2]
 ```
+
+## 📘 Truthy와 Falsy
+
+### Truthy & Falsy 값
+- 자바스크립트에서 참(true)이나 거짓(false)이 아닌 값도 조건문 안에서 자동으로 참 또는 거짓처럼 평가됨
+
+### Falsy 값
+```javascript
+let f1 = undefined;
+let f2 = null;
+let f3 = 0;
+let f4 = -0;
+let f5 = NaN;
+let f6 = "";
+let f7 = 0n; // BigInt 0
+```
+- 7가지 값들은 항상 거짓(false)으로 평가
+
+### Truthy 값
+```javascript
+let t1 = "hello"; // 문자열
+let t2 = 123;     // 숫자
+let t3 = [];      // 빈 배열
+let t4 = {};      // 빈 객체
+let t5 = () => {}; // 함수
+```
+- 위의 7가지 Falsy 값을 제외한 나머지 모든 값은 Truthy (참) 로 평가
