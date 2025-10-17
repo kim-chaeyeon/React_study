@@ -441,6 +441,8 @@ arr[1], arr[2]
 
 ### Truthy & Falsy 값
 - 자바스크립트에서 참(true)이나 거짓(false)이 아닌 값도 조건문 안에서 자동으로 참 또는 거짓처럼 평가됨
+<img width="603" height="330" alt="스크린샷 2025-10-17 오후 1 21 27" src="https://github.com/user-attachments/assets/8c13faf5-076c-48be-b149-a426c7235e9a" />
+
 
 ### Falsy 값
 ```javascript
