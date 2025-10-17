@@ -14,7 +14,8 @@
 - [13. 콜백함수](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter13.js)
 - [14. 스코프](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter14.js)
 - [15. 객체 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter15.js)
-- [15. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
+- [16. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
+- [17. 배열](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter17.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -396,4 +397,41 @@ obj.method = function() {
 obj.method() // 점표기법
 
 obj["method"]() // 괄호표기법
+```
+
+## 📘 배열
+작성일: 2025.10.17(금)
+
+### 1. 배열
+- 여러개의 값을 **순차적**으로 담을 수 있는 자료형
+- 각 요소는 **인텍스(index)로 접근하며, **0부터 시작**한다
+<img width="728" height="206" alt="스크린샷 2025-10-17 오후 12 59 27" src="https://github.com/user-attachments/assets/7c80e807-9352-4e64-a833-5935cd008b29" />
+
+### 2. 배열 생성
+#### 2.1 배열 생성자
+```javascript
+let arrA = new Array();
+```
+#### 2.2 배열 리터럴
+```javascript
+let arrB = [];
+```
+- 리터럴 방식([]) 이 가장 일반적이고 간결하게 사용됩니다.
+
+### 3. 배열의 요소
+- 배열에는 숫자, 문자열, 불린, 함수, 객체 등 모든 자료형을 넣을 수 있음
+- 길이에도 제한이 없음
+
+### 4. 배열 요소 접근
+#### 4.1 특정 요소 가져오기
+```javascript
+arr[0]
+```
+#### 4.2 요소 값 변경
+```javascript
+arr[0] = "변경값";
+```
+#### 4.3 인덱스
+```javascript
+arr[1], arr[2]
 ```
