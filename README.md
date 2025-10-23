@@ -19,6 +19,7 @@
 - [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter01.js)
 - [02. 단락 평가](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter02.js)
 - [03. 구조분해할당](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter03.js)
+- [04. Spread 연산자 & Rest 매개변수](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter04.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -496,4 +497,29 @@ let { 키1, 키2 } = 객체;
 function 함수이름({ 키1, 키2 }) {
   // 구조 분해된 값 사용
 }
+```
+## 📘 Spread 연산자 & Rest 매개변수
+
+### 1. Spread 연산자
+- Spread : 흩뿌리다, 펼치다 라는 뜻
+- 객체나 배열에 저장된 여러개의 값을 개별로 흩뿌려주는 역할
+- Spread연산자: `...`
+- Spread(...) : 펼친다 — 배열·객체 값을 낱개로 풀어냄
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5];       // 배열 병합
+let obj1 = { a: 1, b: 2 };
+let obj2 = { ...obj1, c: 3 };     // 객체 병합
+funcA(...arr1);                   // 함수 인자로 펼치기
+```
+
+### 2. Rest 매개변수
+- 함수의 인자를 배열 형태로 한꺼번에 받는 문법
+- Rest(...) : 모은다 — 여러 값을 하나의 배열로 묶음
+- Rest 매개변수는 반드시 마지막에 위치
+```javascript
+function sumAll(...nums) {
+  console.log(nums);              // [1, 2, 3, 4]
+}
+sumAll(1, 2, 3, 4);
 ```
