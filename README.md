@@ -18,6 +18,7 @@
 - [17. 배열](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter17.js)
 - [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter01.js)
 - [02. 단락 평가](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter02.js)
+- [03. 구조분해할당](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter03.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -472,3 +473,25 @@ let t5 = () => {}; // 함수
 
 ### 1. 단락 평가
 - 논라연산자 `&&`와 `||`는 앞의 값만으로 결과를 알 수 있으면 뒤의 코드는 실행하지 않는 것을 말합니다.
+
+## 📘 구조분해할당
+
+### 1. 구조분해할당
+- 배열이나 객체에 저장된 여러개의 값들을 분해해서 각각 다른 변수에 할당하는 것
+
+### 2. 배열 구조 분해 할당
+```javascript
+let [변수1, 변수2, 변수3] = 배열;
+```
+
+### 3. 객체의 구조 분해 할당
+```javascript
+let { 키1, 키2 } = 객체;
+```
+
+### 4. 함수 매개변수에서 구조 분해 사용하기
+```javascript
+function 함수이름({ 키1, 키2 }) {
+  // 구조 분해된 값 사용
+}
+```
