@@ -17,6 +17,7 @@
 - [16. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
 - [17. 배열](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter17.js)
 - [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter01.js)
+- [02. 단락 평가](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter02.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
@@ -465,3 +466,9 @@ let t4 = {};      // 빈 객체
 let t5 = () => {}; // 함수
 ```
 - 위의 7가지 Falsy 값을 제외한 나머지 모든 값은 Truthy (참) 로 평가
+
+## 📘 단락 평가
+작성일: 2025.10.23(목)
+
+### 1. 단락 평가
+- 논라연산자 `&&`와 `||`는 앞의 값만으로 결과를 알 수 있으면 뒤의 코드는 실행하지 않는 것을 말합니다.
