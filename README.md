@@ -16,10 +16,10 @@
 - [15. 객체 ①](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter15.js)
 - [16. 객체 ②](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter16.js)
 - [17. 배열](https://github.com/kim-chaeyeon/React_study/blob/main/section01/chapter17.js)
-- [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter01.js)
-- [02. 단락 평가](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter02.js)
-- [03. 구조분해할당](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter03.js)
-- [04. Spread 연산자 & Rest 매개변수](https://github.com/kim-chaeyeon/React_study/blob/main/section02/chapter04.js)
+- [01. Truthy와 Falsy](https://github.com/kim-chaeyeon/React_study/blob/main/Section02/chapter01.js)
+- [02. 단락 평가](https://github.com/kim-chaeyeon/React_study/blob/main/Section02/chapter02.js)
+- [03. 구조분해할당](https://github.com/kim-chaeyeon/React_study/blob/main/Section02/chapter03.js)
+- [04. Spread 연산자 & Rest 매개변수](https://github.com/kim-chaeyeon/React_study/blob/main/Section02/chapter04.js)
 - [index.html 실행 페이지](https://github.com/kim-chaeyeon/React_study/blob/main/section01/index.html)
 
 ## 📘 변수와 상수 정리
